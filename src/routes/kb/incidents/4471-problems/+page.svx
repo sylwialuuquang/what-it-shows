@@ -1,0 +1,23 @@
+---
+layout: runbook
+title: '#4471 · the problems in the merged ticket'
+owner: Sylwia Luu Quang
+status: filed
+reviewed: 2026-11-06
+signature: Sylwia Luu Quang
+---
+
+<script>
+  import ProblemTable from '#lib/kb/ProblemTable.svelte';
+  import RenderStamp from '#lib/kb/RenderStamp.svelte';
+
+  const signature = 'Sylwia Luu Quang';
+</script>
+
+#4471 was filed as one known issue. The reports in it are separate problems. The table counts them from the export.
+
+The shared parser reads a day-first date month-first. On booking-v3 the form hint says `MM/DD/YYYY`, people type the month first, and the form reads the day first. Some reports are a one-day move, which the desk noted and the cause table still files under the tenant.
+
+<ProblemTable ticket={4471} />
+
+<RenderStamp {signature} />
