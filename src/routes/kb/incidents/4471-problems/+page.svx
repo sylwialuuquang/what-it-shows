@@ -4,14 +4,14 @@ title: '#4471 · the problems in the merged ticket'
 owner: Sylwia Luu Quang
 status: filed
 reviewed: 2026-11-06
-signature: Sylwia Luu Quang
+signature: "v1.eyJzdWIiOiIzMjk3IiwiYXVkIjoiY2hhbGxlbmdlOndoYXQtaXQtc2hvd3MiLCJpYXQiOjE3OTM5Nzg1ODksImV4cCI6MTc5NDA2NDk4OX0.mvgK4L3mRIRdk34Zzg6pAJd00lM2NfQzMpXmzGO3Ugg"
 ---
 
 <script>
   import CauseTable from '#lib/kb/CauseTable.svelte';
   import RenderStamp from '#lib/kb/RenderStamp.svelte';
 
-  const signature = 'Sylwia Luu Quang';
+  const signature = 'v1.eyJzdWIiOiIzMjk3IiwiYXVkIjoiY2hhbGxlbmdlOndoYXQtaXQtc2hvd3MiLCJpYXQiOjE3OTM5Nzg1ODksImV4cCI6MTc5NDA2NDk4OX0.mvgK4L3mRIRdk34Zzg6pAJd00lM2NfQzMpXmzGO3Ugg';
 </script>
 
 #4471 was filed as one known issue. The reports in it are separate problems.
